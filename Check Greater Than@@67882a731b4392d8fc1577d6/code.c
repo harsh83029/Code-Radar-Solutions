@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main(){
-    if (5>3)
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if (a>b)
     printf("True");
-    else if(10>20)
+    else (a>b)
     printf("False");
 }
