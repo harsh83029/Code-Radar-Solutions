@@ -4,5 +4,5 @@ int main(){
     float mult;
     scanf("%f%f",&a,&b);
     mult=a*b;
-    printf("Product: %2f",mult);
+    printf("Product: %.2f",mult);
 }
