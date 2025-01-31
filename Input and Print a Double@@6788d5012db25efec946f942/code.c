@@ -4,4 +4,5 @@ int main(){
     scanf("%lf",&a);
     //scanf("%lf",&b);
     printf("You entered: %lf",a);
+    return 0;
 }
