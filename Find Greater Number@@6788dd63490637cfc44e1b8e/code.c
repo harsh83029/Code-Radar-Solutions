@@ -5,6 +5,6 @@ int main(){
     if(a<b){
         printf("%d",b);
     }else if(a>b){
-         printf("%d",b);
+         printf("%d",a);
     }
 }
