@@ -8,6 +8,6 @@ int main(){
    } else if(0>n){
     printf("Negative");
    }else{
-    printf("Zero")
+    printf("Zero");
    }
 }
