@@ -2,10 +2,10 @@
 int main(){
     int n;
     scanf("%d",&n);
-    if(0<=n);
+    if(0<=n)
    {
     printf("Positive");
    } else{
-    printf(Negative)
+    printf(Negative);
    }
 }
