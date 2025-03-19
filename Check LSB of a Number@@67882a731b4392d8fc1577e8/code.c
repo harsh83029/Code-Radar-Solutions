@@ -3,5 +3,6 @@
 int main(){
     int a;
     scanf("%d",&a);
-    printf("%d",a,findLSB(a));
+    int b= a & 1;
+    printf("%d",b);
 }
