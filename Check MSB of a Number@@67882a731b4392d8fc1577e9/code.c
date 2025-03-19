@@ -3,7 +3,7 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if(1<<(sizeof(a))* 32-1){
+    if(a<<32){
         printf("Set");
     }else{
         printf("Not Set");
