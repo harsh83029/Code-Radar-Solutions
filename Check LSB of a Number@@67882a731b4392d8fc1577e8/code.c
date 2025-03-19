@@ -3,5 +3,5 @@
 int main(){
     int a;
     scanf("%d",&a);
-    printf("%d",FindLSB(a));
+    printf("%d",findLSB(a));
 }
