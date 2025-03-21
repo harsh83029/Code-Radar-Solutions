@@ -11,7 +11,7 @@ int main(){
     }else if((a)){
         printf("Special Character");
     }
-    else[
+    else{
         printf("Digit")
-    ]
+}
 }
