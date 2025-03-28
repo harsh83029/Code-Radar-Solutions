@@ -7,15 +7,15 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
     } 
-    int even_count;
-    int odd_count1 ;
+    int even_count=0;
+    int odd_count=0 ;
     for(int i=0; i<n; i++){
         if(arr[i]%2==0){
             even_count++;
         }
         else{
-            odd_count1++;
+            odd_count++;
         }
     }
-    printf("%d %d",even_count,odd_count1);
+    printf("%d %d",even_count,odd_count);
 }
