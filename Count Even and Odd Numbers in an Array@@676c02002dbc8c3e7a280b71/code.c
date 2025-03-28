@@ -1,4 +1,4 @@
-// Your code here...
+
 #include<stdio.h>
 int main(){
     int n;
@@ -6,13 +6,15 @@ int main(){
     int arr[n];
     for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
-    } int even_count = count;
-    int odd_count = count1;
+    } 
+    int even_count;
+    int odd_count ;
     for(int i=0; i<n; i++){
         if(arr[i]%2==0){
-            count++;
-        }else if(arr[i]%2!==0){
-            count1++;
+            even_count++;
+        }
+        else{
+            odd_count1++;
         }
     }
     printf("%d %d",even_count,odd_count);
