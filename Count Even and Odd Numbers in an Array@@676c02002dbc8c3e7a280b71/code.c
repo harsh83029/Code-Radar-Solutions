@@ -17,5 +17,5 @@ int main(){
             odd_count1++;
         }
     }
-    printf("%d %d",even_count,odd_count);
+    printf("%d %d",even_count,odd_count1);
 }
