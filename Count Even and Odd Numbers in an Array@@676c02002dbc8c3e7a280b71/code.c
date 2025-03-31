@@ -8,12 +8,15 @@ int main(){
     }
     int even=0;
     int odd=0;
+    int zero=0;
     for(int i=0;i<n;i++){
         if(arr[n]%2==0){
-            printf("%d",arr[n]);
+            even=arr[n];
         }else  if(arr[n]%2!=0){
-            printf("%d",arr[n]);
+            odd=arr[n];
+        }else{
+            zero=arr[n];
         }
     }
-    printf("%d %d",arr[n],arr[n]);
+    printf("%d %d",even,odd,zero);
 }
