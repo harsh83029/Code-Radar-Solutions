@@ -9,9 +9,9 @@ int main(){
     int count=0;
     int count1=0;
     for(int i=0;i<n;i++){
-        if(arr[n]%2==0){
+        if(arr[i]%2==0){
             count++;
-        }else {
+        }else if(arr[i]%2!=0) {
             count1++;
             
         }
