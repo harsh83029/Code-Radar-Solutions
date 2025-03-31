@@ -11,9 +11,9 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[n]%2==0){
             printf("%d",arr[n]);
-        }else  if(arr[n]%2!==0){
+        }else  if(arr[n]%2!=0){
             printf("%d",arr[n]);
         }
     }
-    printf("%d %d"arr[n],arr[n]);
+    printf("%d %d",arr[n],arr[n]);
 }
