@@ -6,15 +6,15 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[n]);
     }
-    int even=0;
-    int odd=0;
-
+    int count=0;
+    int count1=0;
     for(int i=0;i<n;i++){
         if(arr[n]%2==0){
-            even=arr[n];
-        }else  if(arr[n]%2!=0){
-            odd=arr[n];
+            count++;
+        }else {
+            count1++;
+            
         }
     }
-    printf("%d %d",even,odd);
+    printf("%d %d",count,count1);
 }
